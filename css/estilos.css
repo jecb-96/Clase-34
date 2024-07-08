@@ -1,3 +1,8 @@
 .navbar{
     background-color: #a077ec;
 }
+
+.carousel-item img {
+    height: 600px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Para cubrir el área del contenedor sin distorsionar la imagen */
+}
